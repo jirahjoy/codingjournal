@@ -1,0 +1,146 @@
+::placeholder{
+    font-family: 'Amatic SC', cursive;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    background-color: #cfd8dc;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;  
+   
+}
+.innerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.component{
+    margin: 10px;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+    font-size: 3rem;
+}
+h4{
+    font-family: 'Amatic SC', cursive;
+    background: #4db6ac;
+    height: 25px;
+    padding: 8px 5px;
+    margin: 0 0 3px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem; 
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px;  
+}
+
+form{
+    border: 2px solid #4db6ac;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    background-color: #fafafa;
+    margin: 5px;
+
+    
+    
+}
+
+input[type=date]{
+    width: 125px;
+    height: 15px;
+    margin: 2% auto;
+    border-radius: 5px;
+    padding: 8px;
+    color: #333;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.inputs{
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1ps solid #333;
+    padding: 0px;
+    margin: 2% auto;
+    color: #333;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+.buttonAdd{
+    height: 35px;
+    width: 100px;
+    margin: 2% auto;
+    padding: 5px;
+    background-color: #26a69a;
+    color: #fff;
+    border-color: #26a69a;  
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+
+}
+ul{
+    font-family: 'Amatic SC', cursive;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+li:nth-child(odd){
+    background-color: #b2dfdb;
+}
+li:nth-child(even){
+    background-color: #e5ffff;
+}
+
+li div{
+    margin-left: 8px;
+}
+.delBtn{
+    color: #e57373;
+}
+.doneBtn{
+    color: #81c784;
+}
+
+
+
+
+
+
+.line-through{
+    text-decoration: line-through;
+    text-decoration-color: red;    
+}
+
