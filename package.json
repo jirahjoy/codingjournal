@@ -1,7 +1,7 @@
 {
   "name": "codingjournal",
   "version": "0.1.0",
-  "homepage": "https://github.com/jirahjoy/codingjournal",
+  "homepage": "https://jirahjoy.github.io/codingjournal/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
