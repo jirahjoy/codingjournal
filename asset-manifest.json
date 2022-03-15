@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jirahjoy/codingjournal/static/css/main.3fee533d.css",
-    "main.js": "/jirahjoy/codingjournal/static/js/main.179b3057.js",
-    "static/js/787.8887310f.chunk.js": "/jirahjoy/codingjournal/static/js/787.8887310f.chunk.js",
-    "static/media/logo.svg": "/jirahjoy/codingjournal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/jirahjoy/codingjournal/index.html",
-    "main.3fee533d.css.map": "/jirahjoy/codingjournal/static/css/main.3fee533d.css.map",
-    "main.179b3057.js.map": "/jirahjoy/codingjournal/static/js/main.179b3057.js.map",
-    "787.8887310f.chunk.js.map": "/jirahjoy/codingjournal/static/js/787.8887310f.chunk.js.map"
+    "main.css": "/codingjournal/static/css/main.3fee533d.css",
+    "main.js": "/codingjournal/static/js/main.574f7378.js",
+    "static/js/787.8887310f.chunk.js": "/codingjournal/static/js/787.8887310f.chunk.js",
+    "static/media/logo.svg": "/codingjournal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/codingjournal/index.html",
+    "main.3fee533d.css.map": "/codingjournal/static/css/main.3fee533d.css.map",
+    "main.574f7378.js.map": "/codingjournal/static/js/main.574f7378.js.map",
+    "787.8887310f.chunk.js.map": "/codingjournal/static/js/787.8887310f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fee533d.css",
-    "static/js/main.179b3057.js"
+    "static/js/main.574f7378.js"
   ]
 }
