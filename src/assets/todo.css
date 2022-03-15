@@ -37,20 +37,20 @@ body{
 h2{
     font-family: 'Kaushan Script', cursive;
     letter-spacing: 3px;
-    font-size: 3rem;
+    font-size: 3.2rem;
 }
 h4{
     font-family: 'Amatic SC', cursive;
     background: #4db6ac;
     height: 25px;
-    padding: 8px 5px;
+    padding: 9px 5px;
     margin: 0 0 3px 0;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #fff;
     font-weight: 700;
-    font-size: 1.5rem; 
+    font-size: 1.8rem; 
     border-top-left-radius: 8px;  
     border-top-right-radius: 8px;  
 }
@@ -61,7 +61,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    width: 500px;
     background-color: #fafafa;
     margin: 5px;
 
@@ -70,31 +70,31 @@ form{
 }
 
 input[type=date]{
-    width: 125px;
-    height: 15px;
+    width: 150px;
+    height: 18px;
     margin: 2% auto;
     border-radius: 5px;
     padding: 8px;
     color: #333;
     font-family: 'Amatic SC', cursive;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .inputs{
-    width: 300px;
-    height: 35px;
+    width: 320px;
+    height: 45px;
     border-radius: 8px;
     border: 1ps solid #333;
-    padding: 0px;
+    padding: 0 0 0 5px;
     margin: 2% auto;
     color: #333;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
 }
 .buttonAdd{
-    height: 35px;
+    height: 40px;
     width: 100px;
     margin: 2% auto;
     padding: 5px;
@@ -103,13 +103,16 @@ input[type=date]{
     border-color: #26a69a;  
     font-family: 'Amatic SC', cursive;
     letter-spacing: 2px;
-    font-size: 1.2rem;
-
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+.buttonAdd:hover{
+    box-shadow: 2px 1px 1px #333;
 }
 ul{
     font-family: 'Amatic SC', cursive;
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
 }
 li{
@@ -129,6 +132,7 @@ li div{
 }
 .delBtn{
     color: #e57373;
+    
 }
 .doneBtn{
     color: #81c784;
