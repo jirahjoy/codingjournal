@@ -10,7 +10,7 @@ const CreateTask = () => {
 
    
     let curr = new Date();
-    curr.setDate(curr.getDate() + 1);
+    // curr.setDate(curr.getDate() + 2);
     let date = curr.toISOString().substr(0,10);
     
     const refDate = useRef(date);
@@ -67,11 +67,11 @@ const CreateTask = () => {
     }
   return (
     <div className='component'>
-        <form action="" className='todo'>
-            <h4>My task for the day</h4>
+        <form action="" className='todo yellow-border'>
+            <h4 className='yellow'>My task for the day</h4>
             <input type="date" name='date' ref={refDate}  defaultValue={date} min={date}/>
             <input type="text" id="item" placeholder="Keep it short" variant="standard"  name='item' onChange={onChange} className="inputs" value={item.item}/>
-            <button type='submit' onClick={addTask} name='addTask' className="buttonAdd">ADD</button>  
+            <button type='submit' onClick={addTask} name='addTask' className="buttonAdd yellow">ADD</button>  
         </form>
         <DisplayTask taskList={taskList} completeTask={completeTask} deleteTask={deleteTask}/>
     </div>

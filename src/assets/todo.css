@@ -63,10 +63,7 @@ form{
     justify-content: center;
     width: 500px;
     background-color: #fafafa;
-    margin: 5px;
-
-    
-    
+    margin: 5px;   
 }
 
 input[type=date]{
@@ -100,7 +97,7 @@ input[type=date]{
     padding: 5px;
     background-color: #26a69a;
     color: #fff;
-    border-color: #26a69a;  
+    border-color: #fff;  
     font-family: 'Amatic SC', cursive;
     letter-spacing: 2px;
     font-size: 1.4rem;
@@ -146,5 +143,21 @@ li div{
 .line-through{
     text-decoration: line-through;
     text-decoration-color: red;    
+}
+.yellow{
+    background: #ffeb3b;
+    color: #333;
+}
+.yellow-border{
+    border: 2px solid #ffeb3b;
+}
+
+.ul-yellow li:nth-child(odd){
+    background-color: #fffde7
+
+    ;
+}
+.ul-yellow li:nth-child(even){
+    background-color: #fff9c4;
 }
 

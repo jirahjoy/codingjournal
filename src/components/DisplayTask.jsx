@@ -9,7 +9,7 @@ const DisplayTask = (props) => {
   return (
     // style={{maxHeight:'210px', overflowY:'auto'}}
     <div >
-        <ul style={{margin: '0', padding: '0', listStyle: 'none'}}>
+        <ul style={{margin: '0', padding: '0', listStyle: 'none'}} className="ul-yellow">
             {taskList && taskList.length > 0 ?
             taskList.map((element, index) => 
                 <li key={index}>

@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 const CreateThoughts = () => {
 
     let curr = new Date();
-    curr.setDate(curr.getDate() + 1);
+    // curr.setDate(curr.getDate() + 1);
     let date = curr.toISOString().substr(0,10);
     
     const refDate2 = useRef(date);
